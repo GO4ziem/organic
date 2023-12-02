@@ -340,7 +340,7 @@ span{
     display: flex;
     padding: 20px ;
     justify-content: space-around;
-    /* gap: 200px; */
+    gap: 30px;
     align-items: center;
     width: 100%;
     max-width: 1400px;
@@ -363,9 +363,12 @@ span{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    width: 100%;
+    max-width: 500px;
+    /* min-width: 300px; */
 }
 .contact-search input{
-    width: 80%;
+    width: 100%;
     border: none;
     outline: none;
     border-radius: 15px;

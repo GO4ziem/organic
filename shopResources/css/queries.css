@@ -8,6 +8,38 @@
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width:1155px){
+    .contact-sec-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        /* background-color: white; */
+    }
+    .contact-sec-container{
+        margin-top: 20px;
+    }
+    .first-sec h2{
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    .first-sec p{
+        text-align: center;
+    }
+    .contact-search{
+        padding: 5px;
+        /* border:none; */
+        background-color: white;
+        border-radius: 20px;
+    }
+    .contact-search input{
+        /* text-indent: 5px; */
+        /* background-color: white; */
+        text-indent: 10px;
+    }
+}
+
 @media screen and (max-width:1246px){
     /* .list-row{
 

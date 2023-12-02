@@ -222,12 +222,14 @@ hr{
 .contact-me{
     display: flex;
     gap: 14px;
+    /* text-indent: 10px; */
 }
 .contact-me input{
     width: 70%;
     height: 30px;
     border: 1px solid lightgray;
     border-radius: 4px;
+    text-indent: 10px;
 }
 .text-input{
     display: flex;
@@ -239,10 +241,13 @@ hr{
     height: 30px;
     border: 1px solid lightgray;
     border-radius: 4px;
+    text-indent: 10px;
 }
 .text-input textarea{
     border: 1px solid lightgray;
     border-radius: 4px;
+    text-indent: 10px;
+    padding: 3px;
 }
 .contact-button{
     margin-top: 20px;
