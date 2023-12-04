@@ -18,6 +18,24 @@
         flex-wrap: wrap;
     }
 }
+@media only screen and (max-width:538px){
+    .nav-link-container{
+        display: none;
+    }
+    .iconside{
+        display: none;
+    }
+
+}
+@media only screen and (max-width:429px){
+    .sect2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
 @media only screen and (max-width:1210px){
     .sect7-wrapper{
         flex-direction: column;

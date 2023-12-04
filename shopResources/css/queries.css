@@ -87,7 +87,15 @@
     }
 
 }  
-
+@media screen and (max-width:370px){
+    .contact-search{
+        max-width: 300px;
+        width: 100%;
+    }
+    .contact-search button{
+        
+    }
+}
 @media screen and (max-width:798px){
     /* .contact-sec-wrapper{
         display: flex;
@@ -123,7 +131,7 @@
     .contact-sec-wrapper .contact-search{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         justify-content: center;
     }
     .contact-search .input{
